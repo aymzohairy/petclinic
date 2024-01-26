@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: https://registry.hub.docker.com/ayzohairy/petclinic
+  repository: ayzohairy/petclinic
   tag: 3
   pullPolicy: IfNotPresent
 
