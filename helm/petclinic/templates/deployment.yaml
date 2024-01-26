@@ -21,7 +21,8 @@ spec:
     spec:
       containers:
       - name: petclinic-container
-        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        #image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        image: ayzohairy/petclinic:3
         imagePullPolicy: Always
         resources:
           limits:
