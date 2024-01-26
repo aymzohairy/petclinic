@@ -9,7 +9,7 @@ image:
   tag: 3
   pullPolicy: IfNotPresent
 
-imagePullSecrets: []
+imagePullSecrets: my-registry-secret
 nameOverride: ""
 fullnameOverride: ""
 
